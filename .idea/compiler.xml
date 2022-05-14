@@ -10,6 +10,6 @@
         <module name="TelegramWebHookBot.main" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="14" />
+    <bytecodeTargetLevel target="12" />
   </component>
 </project>
