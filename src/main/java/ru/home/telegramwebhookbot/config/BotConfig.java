@@ -31,9 +31,9 @@ public class BotConfig {
     public TelegramWebHookBot telegramWebHookBot(TelegramFacade telegramFacade) {
         DefaultBotOptions options = ApiContext.getInstance(DefaultBotOptions.class);
 
-        options.setProxyHost(proxyHost);
-        options.setProxyPort(proxyPort);
-        options.setProxyType(proxyType);
+        //options.setProxyHost(proxyHost);
+        //options.setProxyPort(proxyPort);
+        //options.setProxyType(proxyType);
 
         TelegramWebHookBot telegramWebHookBot = new TelegramWebHookBot(options, telegramFacade);
         telegramWebHookBot.setBotUserName(botUserName);
