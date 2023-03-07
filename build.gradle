@@ -27,12 +27,6 @@ dependencies {
 
 }
 
-jar {
-    manifest {
-        attributes 'Main-Class': 'ru.home.telegramwebhookbot.TelegramWebHookBotApplication'
-    }
-}
-
 tasks.named('test') {
     useJUnitPlatform()
 }
