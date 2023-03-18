@@ -15,5 +15,14 @@ public class Handler {
     private String chooseType;
     @Value("${reply.speciality}")
     private String speciality;
-
+    @Value("${reply.ruling.ruling}")
+    private String ruling;
+    @Value("${reply.ruling.economy}")
+    private String economy;
+    @Value("${reply.humanity.law}")
+    private String law;
+    @Value("${reply.it.programming}")
+    private String programming;
+    @Value("${reply.tech.machine}")
+    private String machine;
 }

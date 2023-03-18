@@ -55,12 +55,12 @@ public class TelegramFacade {
                     break;
 
                 case "Управление":
-                    sendMessage = new SendMessage(chatId, "anvca k");
+                    sendMessage = new SendMessage(chatId, handler.getRuling());
                     setTypesButtons(sendMessage);
                     break;
 
                 case "Экономика и финансы":
-                    sendMessage = new SendMessage(chatId, "skcaacacak");
+                    sendMessage = new SendMessage(chatId, handler.getEconomy());
                     setTypesButtons(sendMessage);
                     break;
 
@@ -80,7 +80,7 @@ public class TelegramFacade {
                     break;
 
                 case "Право":
-                    sendMessage = new SendMessage(chatId, "sksфафаафафcafaacacak");
+                    sendMessage = new SendMessage(chatId, handler.getLaw());
                     setTypesButtons(sendMessage);
                     break;
 
@@ -107,7 +107,7 @@ public class TelegramFacade {
                     break;
 
                 case "Программирование":
-                    sendMessage = new SendMessage(chatId, "sksфаафаaacacak");
+                    sendMessage = new SendMessage(chatId, handler.getProgramming());
                     setTypesButtons(sendMessage);
                     break;
 
@@ -132,7 +132,7 @@ public class TelegramFacade {
                     break;
 
                 case "Машиностроение и робототехника":
-                    sendMessage = new SendMessage(chatId, "sksфаgsgfaфаафаaaak");
+                    sendMessage = new SendMessage(chatId, handler.getMachine());
                     setTypesButtons(sendMessage);
                     break;
 
